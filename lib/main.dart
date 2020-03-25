@@ -32,9 +32,6 @@ class _HomePageState extends State<HomePage> {
               Container(
                 height: MediaQuery.of(context).size.height,
                 width: MediaQuery.of(context).size.width,
-                decoration: BoxDecoration(
-                  gradient: LinearGradient(colors: [Hexcolor('#aa4b6b'), Hexcolor('#6b6b83'), Hexcolor('#3b8d99')],)
-                ),
                 child: Text(
                   'Pull if verified',
                   style: TextStyle(
